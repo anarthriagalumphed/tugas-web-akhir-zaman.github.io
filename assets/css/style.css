@@ -1,0 +1,112 @@
+body{
+    font-family: "Monsterrat", 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a, a:hover{
+    text-decoration: none;
+}
+
+header{
+    background-color: #3E065F;
+    padding: 15px;
+}
+
+.brand{
+    display: flex;
+    align-items: center;
+}
+
+.brand img{
+    margin-right: 20px;
+}
+
+.brand .brand-title h1{
+    font-size: 25px;
+    color: white;
+    text-transform: uppercase;
+}
+
+.brand .brand-title h3{
+    font-size: 18px;
+    font-family: Raleway, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #CFD2CF;
+}
+
+/* Menu Navbar */
+.navbar{
+    padding: 0;
+    border-bottom: 5px solid #FFCD38;
+}
+
+.nav-link{
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 0.25px;
+}
+
+.bg-ungu{
+    background-color: #700B97!important;
+    color: #ffff;
+}
+
+.navbar-light .navbar-nav .nav-link{
+    background-color: #700B97;
+    color: #ffff;
+}
+
+.navbar-dark .navbar-nav .active>.nav-link,
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link.show,
+.navbar-dark .navbar-nav .show>.nav-link{
+    color: #ffff;
+}
+
+.active{
+    color: #700B97;
+}
+
+li.nav-item.active a{
+    color: #700B97;
+}
+
+.navbar-dark .navbar-nav .nav-link{
+    padding: 15px 20px;
+    display: inline-block;
+}
+
+/* Slider Hero */
+
+#hero-area .slider-item-content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% -50%);
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 20px;
+    text-align: center;
+    font-family: Raleway, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 50%;
+}
+
+#hero-area .slider-item-content h2{
+    font-size: 35px;
+    font-weight: 400;
+}
+
+#hero-area .slider-item-content p{
+    font-size: 18px;
+}
+
+.btn.btn-utama{
+    background-color: #700B97;
+    color: #FFCD38;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.btn.btn-utama:hover{
+    background-color: #3E065F;
+}
